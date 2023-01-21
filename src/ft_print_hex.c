@@ -1,4 +1,5 @@
-#include "ft_print_ptr.c"
+#include "ft_printf.h"
+#include "libft.h"
 
 int	ft_hex_len(unsigned	int num)
 {
