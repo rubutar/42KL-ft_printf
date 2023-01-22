@@ -1,0 +1,11 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory `/Users/rubutar/Documents/GitHub/42KL-libft'
+gcc -Wall -Wextra -Werror -I.   -c -o ft_strjoin.o ft_strjoin.c
+ 
+gcc -Wall -Wextra -Werror -I.   -c -o ft_strlen.o ft_strlen.c
+gcc -Wall -Wextra -Werror -I.   -c -o ft_strncmp.o ft_strncmp.c
+gcc -Wall -Wextra -Werror -I.   -c -o ft_strrchr.o ft_strrchr.c
+gcc -Wall -Wextra -Werror -I.   -c -o ft_substr.o ft_substr.c
+ar rcs libft.a ft_isalpha.o ft_isascii.o ft_isdigit.o ft_isprint.o ft_putchar_fd.o ft_putstr_fd.o ft_putnbr_fd.o ft_strchr.o ft_strjoin.o ft_strlen.o ft_strncmp.o ft_strrchr.o ft_substr.o
+make: Leaving directory `/Users/rubutar/Documents/GitHub/42KL-libft'
+ 
